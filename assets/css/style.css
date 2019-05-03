@@ -1,0 +1,25 @@
+header{
+
+
+}
+
+body{
+
+  background-color: #303031;
+
+}
+h1{
+    font-family: 'Bungee Shade', cursive;
+    color: #FF1298;
+    font-size: 90px;
+}
+img{
+    width:45%;
+}
+.footer{
+    background-color: yellow;
+    border-bottom-color: blue;
+    border-top-color: greenyellow;
+    border-width: 2pt;
+
+}
