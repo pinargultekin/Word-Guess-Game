@@ -15,6 +15,9 @@ h1{
     line-height: 200%;
     border-bottom-style: dotted;
 }
+h3{
+
+}
 img{
     width:45%;
     margin: 10px;
@@ -44,5 +47,8 @@ border: solid 9px #FF31A6;
     border-bottom: #64DDE9 solid 15px;
     border-right: #64DDE9 solid 15px;
     text-align: center;
-
+    font-family: 'Press Start 2P', cursive;
+}
+audio{
+    display: none;
 }
