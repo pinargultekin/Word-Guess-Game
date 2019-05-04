@@ -10,16 +10,39 @@ body{
 }
 h1{
     font-family: 'Bungee Shade', cursive;
-    color: #FF1298;
+    color: #96EFE2;
     font-size: 90px;
+    line-height: 200%;
+    border-bottom-style: dotted;
 }
 img{
     width:45%;
+    margin: 10px;
+}
+.img-1{
+border: solid 9px #FF31A6;
+}
+.img-2{
+    border: solid 9px #33FF7C;
+}
+.img-3{
+    border: solid 9px #FAFF33;
+}
+.img-4{
+    border: solid 9px #8233FF;
 }
 .footer{
-    background-color: yellow;
-    border-bottom-color: blue;
-    border-top-color: greenyellow;
-    border-width: 2pt;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    padding:0;
+    line-height: 35px;
+    margin:0 auto;
+    background-color: #77FFAE;
+    border-top: #DBFF73 solid 15px;
+    border-left: #DBFF73 solid 15px;
+    border-bottom: #64DDE9 solid 15px;
+    border-right: #64DDE9 solid 15px;
+    text-align: center;
 
 }
