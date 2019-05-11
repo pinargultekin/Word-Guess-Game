@@ -7,3 +7,9 @@ var match;
 var remainingGuess;
 
 
+document.onkeypress = function (event) {
+    if (isAlphanumeric (event.key)) {
+        checkLetter(event.key.toUpperCase() )
+    }
+};
+
