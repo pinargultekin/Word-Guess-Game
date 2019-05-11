@@ -16,7 +16,9 @@ h1{
     border-bottom-style: dotted;
 }
 h3{
-
+    font-family: 'Luckiest Guy', cursive;
+    color: #FAFF33;
+    text-align: center;
 }
 img{
     width:45%;
@@ -51,4 +53,18 @@ border: solid 9px #FF31A6;
 }
 audio{
     display: none;
+}
+h4{
+    color: #96EFE2;
+    font-family: 'Viga';
+    font-size: 26px;
+    text-align: center;
+    padding: 10px;
+}
+#totalWins, #currentWord, #remainingGuesses, #guessedLetters {
+    color: #cccccc;
+    size: 26px;
+    font-family: 'Viga';
+    text-align: center;
+    padding:10px;
 }
