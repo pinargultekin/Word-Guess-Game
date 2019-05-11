@@ -28,4 +28,12 @@ function game() {
     blank = currentWordLetter.length;
     console.log(blank);
 
+    for (var i=0; i<blank; i++) {
+        match.push("_");
+        console.log(match); 
+    }
+
+   
+
+
 
