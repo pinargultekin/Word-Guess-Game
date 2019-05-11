@@ -10,7 +10,22 @@ var incorrectGuess = [];
 var wins = 0;
 var remainingGuess = 0;
 
+
+    //listen the key event
 document.onkeyup = function(event) {
     var guessedLetter = String.fromCharCode(event.keyCode).toLowerCase();
+    letterCheck(guessedLetter);
     console.log(guessedLetter);
 }
+    //~~~~FUNCTIONS~~~~ 
+function game() {
+    // Creating random selection
+    currentWord = words[Math.floor(Math.random() * words.length)]; 
+    console.log(currentWord);
+    // Display underscore to hide the current word 
+    currentWordLetter = currentWord.split (""); 
+    console.log(currentWordLetter);
+    blank = currentWordLetter.length;
+    console.log(blank);
+
+
